@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: arial;
+    font-size: 200%;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: arial;
+    padding-right: 10px;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+    padding-right: 20px;
+    padding-left: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top {
+    font-size: 10px;
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.top:active {
+    background-color: white;
+    color: black;
+}
+
+.top:hover {
+    background-color: black;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.second-container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.first {
+    margin-left: 50px;
+    background-color: black;
+    height: 200%;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    width: 100%;
+}
+
+#first {
+    font-size: 70px;
+    font-family: futura;
+    font-style: futura;
+    margin-bottom: 3px;
+}
+
+#second {
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: 2px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.second-button {
+    font-size: 10px;
+    width: 12em;
+    height: 4em;
+    text-align: center;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.second-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.second-button:active {
+    background-color: white;
+    color: black;
+}
+
+.third-container {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#third {
+    font-size: 100px solid;
+    text-decoration: overline;
+}
+
+.picture1 {
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 2;
+    font-size: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+}
+
+.familypic {
+    height: 400px;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.different {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.box {
+    width: 31%;
+    display: inline-block;
+}
+
+.box-container {
+    display: inline-block;
+    margin-left: 20px;
+    padding: auto;
+    width: 90%;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.third-button-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 90%;
+    align-content: center;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.third-button-paragragh {
+    font-size: 150%;
+    font-family: 'Times New Roman';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 5em;
+    text-align: left;
+    padding-right: 5em;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(228, 196, 217);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-right: 10%;
+    align-items: center;
+}
